@@ -1,0 +1,93 @@
+.card-container{
+    width: 100%;
+    height: 322px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    background-color: #6C6C6C;
+    margin-bottom: 20px;
+}
+
+.img-container{
+    width: 100%;
+    height: 164px;
+    padding-top: 10px;
+}
+
+.info-container{
+    padding: 10px 0 0 10px;
+}
+
+.info-container h1{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: -0.015em;
+mix-blend-mode: normal;
+color: #FFFFFF;
+}
+
+.info-container h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    
+    /* identical to box height */
+    letter-spacing: -0.015em;
+    
+    color: #FFC700;
+    
+    mix-blend-mode: normal;  
+}
+.info-container p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) { 
+    .card-container{
+        width: 258px;
+        height: 322px;
+    }
+}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) { 
+    .card-container{
+        width: 324px;
+        height: 364px;
+        margin-bottom: 40px;
+    }
+ }
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) { 
+    .card-container{
+        width: 230px;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+    .card-container{
+        width: 258px;
+        height: 322px;
+        margin-bottom: 20px;
+    }
+ }
